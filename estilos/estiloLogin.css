@@ -1,0 +1,44 @@
+body{background-color:black;}
+
+.camposInserirDados{
+    position:absolute;
+    left:33%;
+    background-color:white;
+    width:30%;
+    height:5%;
+    font-size:115%;
+}
+#campoUsuario{
+    top:20%;
+}
+#campoSenha{
+    top:40%;
+}
+.textosIndicativos{
+    color:blue;
+    font-size:150%;
+    position:absolute;
+}
+#textoIndicativoUsuario{
+    top:17%;
+    left:26%;
+}
+#textoIndicativoSenha{
+    top:37%;
+    left:27%;
+}
+
+#botaoConfirmar{
+    position:absolute;
+    top:55%;
+    left:43%;
+    background-color: rgb(0,0,255);
+    color:white;
+    font-size:140%;
+    width:11%;
+    height:9%;
+    border-radius:10px;
+}
+#botaoConfirmar:active{
+    top:56%;
+}
